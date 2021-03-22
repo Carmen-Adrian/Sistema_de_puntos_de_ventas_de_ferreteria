@@ -859,7 +859,7 @@ public class Ventas extends javax.swing.JDialog {
         //
         Connection reg = conectar.getConexion();
         //PARA DETERMINAR SI ES CLIENTE EXISTENTE O NO
-        if (ClienteExistente == "si") {
+        if (ClienteExistente != "si") {
             JOptionPane.showMessageDialog(null, " Cliente existente");
         } //sino agregado cliente existente entonces lo guarda nuevo cliente
         else {
