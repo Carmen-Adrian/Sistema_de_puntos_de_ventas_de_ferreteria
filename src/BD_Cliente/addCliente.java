@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
 
 public class addCliente extends javax.swing.JDialog {
 
-    static public String ventas = "";
+    String ventas = "";
     /**
      * Creates new form addCliente
      */
