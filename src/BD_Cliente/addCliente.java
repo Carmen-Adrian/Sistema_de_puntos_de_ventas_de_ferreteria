@@ -280,7 +280,7 @@ public class addCliente extends javax.swing.JDialog {
         String correo = (jTextField_correo.getText());
         add.agregarCliente(nombre, apellido, razon_social, rfc, direccion, telefono, correo);
         // codigo de introducir datos a la mysql
-        if (ventas == "ventas") {
+        if (ventas != "ventas") {
             dispose();
             Ventas.main(null);
         } else {
